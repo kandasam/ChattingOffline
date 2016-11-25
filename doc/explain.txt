@@ -1,0 +1,55 @@
+﻿Hi, Monsieur.
+
+I studied your task2 document and then write this proposal.
+
+
+1. Questions
+ I understand Plugin(Situation1) but don't understand Plugin(Situation2)
+ When FCM send message, it will go to app.
+ If app is offline, fcm message will be pending. When app is back online, it will be sent automatically by fcm cloud service.
+ 
+ So "When USER A will get back (WIFI, LTE DATA PLAN, or came back online  after a re-start) Firebase will send a xmpp available to Openfire, and Openfire will send to FCM all notification storing (pending)"
+  It is really not necessary.
+
+ What do you think of it?
+
+2. Project skills.
+ Java, JDBC, OpenFire Plugin Development(with Eclipse)
+
+3. Project Price and Period
+ Price: $25/hr
+ Period: 40hrs
+
+
+Looking forward to your good reply.
+Thank you.
+
+From Gosto.
+
+
+I will try to make it more simple for me !(ANd my understanding)
+
+Tomorrow when you read this let me know if I am write or wrong .. thanks 
+My App = that's It app My application!
+
+Your app = App you will created ! to register to FCM 
+
+-----------
+A) I use GCM for message (notification from admin server)
+Can we immigrated the GCM on your YOUR APP?
+
+B) YOUR APP you will created ! Will be use to sign in the FCM and get the token !
+So user when he sign to MY APP will sign whit YOUR APP same time ...
+So FCM can send message to the USER DEVICE!
+
+C) YOUR PLUG IN you will created will make a resume of the openfire message And send to FCM and FCM to DEVICE USER in SSL. (using the existing option in Openfire to store message)
+
+-You got 1 invitation
+-You got 2 message  etc.
+
+D) It's will work for Android 
+
+E) GroupChat will be work in the V2 of the plug in !
+
+
+Let me know If I understand ! thanks !

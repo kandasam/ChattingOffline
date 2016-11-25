@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChattingSample</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="activity_title_chatting_list">채팅목록</string>
+    <string name="activity_title_chatting_room">채팅방</string>
+</resources>
