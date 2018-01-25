@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChattingModule.iml" filepath="$PROJECT_DIR$/ChattingModule.iml" />
+      <module fileurl="file://S:\temporary\Androidworkspace\ChattingOffline\ChattingModule.iml" filepath="S:\temporary\Androidworkspace\ChattingOffline\ChattingModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChattingOffline.iml" filepath="$PROJECT_DIR$/ChattingOffline.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://S:\temporary\Androidworkspace\ChattingOffline\app\app.iml" filepath="S:\temporary\Androidworkspace\ChattingOffline\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/chattingmodule/chattingmodule.iml" filepath="$PROJECT_DIR$/chattingmodule/chattingmodule.iml" />
+      <module fileurl="file://S:\temporary\Androidworkspace\ChattingOffline\chattingmodule\chattingmodule.iml" filepath="S:\temporary\Androidworkspace\ChattingOffline\chattingmodule\chattingmodule.iml" />
     </modules>
   </component>
 </project>

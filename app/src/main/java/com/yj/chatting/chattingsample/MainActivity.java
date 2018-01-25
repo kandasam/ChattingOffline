@@ -1,19 +1,12 @@
 package com.yj.chatting.chattingsample;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.View;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.yj.chatting.chattingmodule.ChatEndPoint;
-import com.yj.chatting.chattingmodule.ServerConnectListner;
 
 import java.util.ArrayList;
 
@@ -80,28 +73,5 @@ public class MainActivity extends AppCompatActivity {
         m_lstContacts.add(contact);
 
         m_adpContacts.notifyDataSetChanged();
-    }
-
-    ChatEndPoint mChatEndPoint = null;
-
-    private void test() {
-
-        mChatEndPoint = new ChatEndPoint(this);
-
-        connectTest();
-    }
-
-    private  void  connectTest() {
-        mChatEndPoint.connect("192.168.0.11", "conference", 5222, new ServerConnectListner() {
-            @Override
-            public void onSuccess() {
-                Log.d("connect", "success");
-            }
-
-            @Override
-            public void onFailed(Exception e) {
-                Log.d("connect", "fail");
-            }
-        });
     }
 }
