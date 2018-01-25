@@ -21,25 +21,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(R.string.activity_title_chatting_list);
-        setSupportActionBar(toolbar);
-
-        m_rvContacts = (RecyclerView)findViewById(R.id.rv_contacts);
-
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        // actually VERTICAL is the default,
-        // just remember: LinearLayoutManager
-        // supports HORIZONTAL layout out of the box
-        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-        // you can set the first visible item like this:
-        layoutManager.scrollToPosition(0);
-        m_rvContacts.setLayoutManager(layoutManager);
-
-        m_adpContacts = new RecyclerViewDemoAdapter(m_lstContacts);
-        m_rvContacts.setAdapter(m_adpContacts);
-
-        getContactsList();
+//        m_rvContacts = (RecyclerView)findViewById(R.id.rv_contacts);
+//
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+//        // actually VERTICAL is the default,
+//        // just remember: LinearLayoutManager
+//        // supports HORIZONTAL layout out of the box
+//        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+//        // you can set the first visible item like this:
+//        layoutManager.scrollToPosition(0);
+//        m_rvContacts.setLayoutManager(layoutManager);
+//
+//        m_adpContacts = new RecyclerViewDemoAdapter(m_lstContacts);
+//        m_rvContacts.setAdapter(m_adpContacts);
+//
+//        getContactsList();
     }
 
     @Override
